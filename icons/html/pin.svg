@@ -1,0 +1,6 @@
+<svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g fill="#ffffff">
+        <path d="m8 16-1-1v-3h2v3z" style="paint-order:stroke fill markers"/>
+        <path transform="scale(1,-1)" d="m4 0c-0.5539994 0-1-0.44600055-1-1 0-0.5539994 0.4460006-1 1-1h2v-3.4238281a5 5 0 0 1-0.5-0.2460938 5 5 0 0 1-2.5-4.3300781h10a5 5 0 0 1-2.5 4.3300781 5 5 0 0 1-0.5 0.2460938v3.4238281h2c0.553999 0 1 0.4460006 1 1 0 0.55399945-0.446001 1-1 1h-8z" stroke-width="4" style="paint-order:stroke fill markers"/>
+    </g>
+</svg>

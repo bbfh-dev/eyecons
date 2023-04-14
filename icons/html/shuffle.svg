@@ -1,0 +1,6 @@
+<svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g fill="#ffffff">
+        <path d="m12 15v-2h-2.0859375l-1.9453125-1.968749 1.53125-1.531251 1.5 1.5h1v-2h1l3 3-3 3zm-8.5-8.482422-1.5-1.517578h-2v-2h3l2 2z" style="paint-order:stroke fill markers"/>
+        <path d="m13 1h-1v2h-2l-8 8h-2v2h3l8-8h1v2h1l3-3z" style="paint-order:stroke fill markers"/>
+    </g>
+</svg>
