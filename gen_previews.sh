@@ -4,8 +4,11 @@ generate_table() {
   local images=("$@")
   local rows=""
 
+  mkdir .docs
   for img in "${images[@]}"; do
-    rows+="<img src=\"./icons/$img\" width=\"32px\" height=\"32px\" style=\"background-color: white; filter: invert(1);\" />\n"
+    cp ./icons/$img ./.docs/$img
+    sed -i 's/currentColor/#ffffff/g' ./.docs/$img
+    rows+="<img src=\"./.docs/$img\" width=\"32px\" height=\"32px\" />\n"
     # rows=$rows"\n<p>"$(tr -d '\0' < ./icons/$img)"</p>"
   done
 
