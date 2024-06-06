@@ -5,8 +5,8 @@ generate_table() {
   local rows=""
 
   for img in "${images[@]}"; do
-    # rows+="<img src=\"./icons/$img\" width=\"32px\" height=\"32px\" />"
-    rows=$rows"\n<p>"$(tr -d '\0' < ./icons/$img)"</p>"
+    rows+="<img src=\"./icons/$img\" width=\"32px\" height=\"32px\" style=\"background-color: white; filter: invert(1);\" />\n"
+    # rows=$rows"\n<p>"$(tr -d '\0' < ./icons/$img)"</p>"
   done
 
   rows=$(sed -e 's/width=\"16\"/width=\"32\"/g' <<< $rows)
