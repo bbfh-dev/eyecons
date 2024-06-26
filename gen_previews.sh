@@ -4,6 +4,7 @@ generate_table() {
   local images=("$@")
   local rows=""
 
+  rm -rf .docs
   mkdir .docs
   for img in "${images[@]}"; do
     cp ./icons/$img ./.docs/$img
