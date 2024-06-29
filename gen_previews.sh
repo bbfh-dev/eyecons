@@ -7,9 +7,12 @@ generate_table() {
   rm -rf .docs
   mkdir .docs
   for img in "${images[@]}"; do
+    cp ./icons/$img ./.docs/white_$img
     cp ./icons/$img ./.docs/$img
-    sed -i 's/currentColor/#ffffff/g' ./.docs/$img
-    rows+="<img src=\"./.docs/$img\" width=\"32px\" height=\"32px\" />\n"
+    sed -i 's/currentColor/#ffffff/g' ./.docs/white_$img
+    sed -i 's/currentColor/#000000/g' ./.docs/$img
+    rows+="<img src=\"./.docs/white_$img#gh-light-mode-only\" width=\"32px\" height=\"32px\" />\n"
+    rows+="<img src=\"./.docs/$img#gh-dark-mode-only\" width=\"32px\" height=\"32px\" />\n"
     # rows=$rows"\n<p>"$(tr -d '\0' < ./icons/$img)"</p>"
   done
 
