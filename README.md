@@ -10,6 +10,8 @@ A 16x16 (scallable vector graphics) icon pack that prioritizes consistency and q
 >
 > *Creation of icons is a tedious process that can take a lot of time, so please be patient.*
 
+Credits to [@RuMaks](https://github.com/rumaks-xyz) for the original eyecons version.
+
 # Table of Contents
 
 <!-- vim-markdown-toc GFM -->
