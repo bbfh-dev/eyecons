@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-VERSION="v1.1.0-hotfix"
+VERSION="v1.1.1"
 
 function copyIcon {
     file=$1
