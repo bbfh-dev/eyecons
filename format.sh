@@ -19,7 +19,7 @@ function myformat {
 
 shopt -s globstar
 
-for file in icons/**/*.svg; do
+for file in icons/default/**/*.svg; do
     myformat $file &
 
     # once we hit $THREADS jobs, wait for one to finish
