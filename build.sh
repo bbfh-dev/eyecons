@@ -86,14 +86,15 @@ wait
 #region Pixel art icons
 echo "==> Export: pixel art icons"
 
+mkdir -p $DIR/raster/pixelart/8x8/
 mkdir -p $DIR/raster/pixelart/16x16/
 mkdir -p $DIR/raster/pixelart/32x32/
 mkdir -p $DIR/raster/pixelart/64x64/
 
 for file in ./icons/pixel/*.png; do
     base=$(basename $file)
-    cp $file "$DIR/raster/pixelart/16x16/$base"
-    for size in 32 64; do
+    cp $file "$DIR/raster/pixelart/8x8/$base"
+    for size in 16 32 64; do
         ffmpeg -loglevel quiet -i $file -vf scale=$size:$size -sws_flags neighbor "$DIR/raster/pixelart/${size}x${size}/$base" &
     done
 
