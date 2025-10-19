@@ -48,7 +48,7 @@ $ tree -d ./build/latest/
 
 # Building
 
-Building requires the following additional binaries to be installed: `resvg`, `ffmpeg`, `tar` & `zip`
+Building requires the following additional binaries to be installed: `resvg`, `tar` & `zip`
 
 ```bash
 ./build.sh
