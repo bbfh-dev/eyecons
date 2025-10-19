@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 
 THREADS=$(ls /dev/cpu/ | wc -l)
-PREVIOUS_VERSION="v1.2.0"
-VERSION="v1.3.0"
+PREVIOUS_VERSION="v1.3.0"
+VERSION="v1.3.1"
 NAME="eyecons-$VERSION"
 DIR="./dist/$NAME"
 PREVIOUS_DIR="./dist/eyecons-$PREVIOUS_VERSION"
@@ -10,6 +10,7 @@ CHANGELOG_FILE="./dist/CHANGELOG.md"
 
 mkdir -p $DIR
 if [ -d $PREVIOUS_DIR ]; then
+    rm -r /tmp/eyecons-previous
     mv $PREVIOUS_DIR /tmp/eyecons-previous
 fi
 rm -rf $DIR/*

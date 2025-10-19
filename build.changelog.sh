@@ -11,19 +11,23 @@ echo -e "# Changelog $PREVIOUS_VERSION → $VERSION\n" > $CHANGELOG_FILE
 for file in $new_dir/*; do
     name=$(basename $file)
     if [ ! -f "${old_dir}/$name" ]; then
-        echo -n "- 📥 Added \`${name%.svg}\` " >> $CHANGELOG_FILE
-        cat $file >> $CHANGELOG_FILE
+        echo "- 📥 Added \`${name%.svg}\` " >> $CHANGELOG_FILE
     fi
 done
-
-echo "" >> $CHANGELOG_FILE
 
 for file in $old_dir/*; do
     name=$(basename $file)
     if [ ! -f "${new_dir}/$name" ]; then
-        echo -n "- 📤 Removed \`${name%.svg}\` " >> $CHANGELOG_FILE
-        cat $file >> $CHANGELOG_FILE
+        echo "- 📤 Removed \`${name%.svg}\` " >> $CHANGELOG_FILE
     fi
 done
 
-echo "" >> $CHANGELOG_FILE
+for file in $new_dir/*; do
+    name=$(basename $file)
+    if [ -f "${old_dir}/$name" ]; then
+        if [[ $(cmp "$file" "${old_dir}/$name") ]]; then
+            echo "- ⚙️ Changed \`${name%.svg}\`" >> $CHANGELOG_FILE
+        fi
+    fi
+done
+
