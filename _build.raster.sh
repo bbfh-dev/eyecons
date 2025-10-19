@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-echo "[*] Export: render icons"
+echo "Render raster icons:"
 
 function renderIcon {
     file=$1
@@ -18,7 +18,6 @@ function renderIconCollection {
     for file in $DIR/symbolic/${color}/*.svg; do
         renderIcon $file $color $size
     done
-    echo "    Rendered ${color}:${size}x${size}"
 }
 
 for color in black white; do
@@ -29,6 +28,8 @@ for color in black white; do
         while (( $(jobs -rp | wc -l) >= THREADS )); do
             wait -n
         done
+
+        echo "    Finished ${color} ${size}x${size}"
     done
 done
 

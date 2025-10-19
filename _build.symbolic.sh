@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-echo "[*] Export: symbolic icons"
+echo "Export symbolic icons:"
 
 mkdir_and_cp() {
     mkdir -p $(dirname "$2") && cp "$1" "$2"
@@ -14,6 +14,7 @@ function copyIcon {
     mkdir_and_cp $file "$DIR/symbolic/black/$dest"
 }
 
+echo -e "    Copying files"
 shopt -s globstar dotglob
 for file in ./icons/**/*.svg; do
     parent_dir=$(basename $(dirname "$file../"))
@@ -32,7 +33,7 @@ done
 
 wait
 
-echo "    1/1) Apply colors"
+echo -e "    Applying colors"
 sed -i 's/#ffffff/#ffffff/g' $DIR/symbolic/white/*
 sed -i 's/#ffffff/#000000/g' $DIR/symbolic/black/*
 sed -i 's/#ffffff/currentColor/g' $DIR/symbolic/web/*
