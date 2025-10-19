@@ -1,31 +1,35 @@
 #!/usr/bin/bash
 
-THREADS=$(ls /dev/cpu/ | wc -l)
-header='<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="@color">'
+header='<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="#ffffff">'
+shopt -s globstar dotglob
 
-cp -r icons/ /tmp/eyecons.bak
-
-function myformat {
+function do_compress {
     file=$1
-    base=$(basename $file)
+    cp $file "${file}.min"
 
-    cp $file /tmp/$base.backup
-    echo $header > $file
-    tail -n+2 /tmp/$base.backup >> $file
+    scour \
+        --quiet \
+        --strip-xml-prolog \
+        --remove-descriptive-elements \
+        --enable-comment-stripping \
+        --indent=tab \
+        --strip-xml-space \
+        --enable-id-stripping \
+        --shorten-ids \
+        $file "${file}.min"
+    prettier --parser html --print-width 100 --use-tabs --write "${file}.min"
+    mv "${file}.min" $file
 
-    prettier --log-level silent --config scripts/.prettierrc.json --parser html --write $file
-    echo "--- Formatted $base"
+    # Second pass to change the header
+    echo $header > "${file}.min"
+    tail -n+2 $file >> "${file}.min"
+    mv "${file}.min" $file
 }
 
-shopt -s globstar
-
-for file in icons/default/**/*.svg; do
-    myformat $file &
-
-    # once we hit $THREADS jobs, wait for one to finish
-    while (( $(jobs -rp | wc -l) >= THREADS )); do
-        wait -n
-    done
+for file in ./icons/**/*; do
+    if [[ ! -d $file ]]; then
+        do_compress $file &
+    fi
 done
 
 wait
