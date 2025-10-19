@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 
 THREADS=$(ls /dev/cpu/ | wc -l)
-PREVIOUS_VERSION="v1.3.0"
-VERSION="v1.3.1"
+PREVIOUS_VERSION="v1.3.1"
+VERSION="v1.3.2"
 NAME="eyecons-$VERSION"
 DIR="./dist/$NAME"
 PREVIOUS_DIR="./dist/eyecons-$PREVIOUS_VERSION"
