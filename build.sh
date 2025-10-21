@@ -1,19 +1,13 @@
 #!/usr/bin/bash
 
 THREADS=$(ls /dev/cpu/ | wc -l)
-PREVIOUS_VERSION="v1.3.3"
-VERSION="v1.3.4"
+VERSION="v1.3.6"
 NAME="eyecons-$VERSION"
 DIR="./dist/$NAME"
-PREVIOUS_DIR="./dist/eyecons-$PREVIOUS_VERSION"
 CHANGELOG_FILE="./dist/CHANGELOG.md"
 
+rm -fr ./dist/*
 mkdir -p $DIR
-if [ -d $PREVIOUS_DIR ]; then
-    rm -r /tmp/eyecons-previous
-    mv $PREVIOUS_DIR /tmp/eyecons-previous
-fi
-rm -rf $DIR/*
 
 cp ./LICENSE $DIR/.
 
@@ -31,13 +25,6 @@ mv /tmp/eyecons.tar.gz "$NAME.tar.gz"
 mv /tmp/eyecons.zip "$NAME.zip"
 
 echo "    Symlinking ./build/latest/"
-rm latest
 ln -s $NAME latest
-
-cd ..
-echo "Generating CHANGELOG.md..."
-old_dir="/tmp/eyecons-previous/symbolic/white/"
-new_dir="${DIR}/symbolic/white/"
-source ./_build.changelog.sh
 
 echo "Done."
