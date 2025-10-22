@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 THREADS=$(ls /dev/cpu/ | wc -l)
-VERSION="v1.3.5"
+VERSION="v1.3.6"
 NAME="eyecons-$VERSION"
 DIR="./dist/$NAME"
 CHANGELOG_FILE="./dist/CHANGELOG.md"
