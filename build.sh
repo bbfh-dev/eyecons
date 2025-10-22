@@ -24,7 +24,11 @@ cd ..
 mv /tmp/eyecons.tar.gz "$NAME.tar.gz"
 mv /tmp/eyecons.zip "$NAME.zip"
 
-echo "    Symlinking ./build/latest/"
+echo "Symlinking ./build/latest ..."
 ln -s $NAME latest
+cd ..
+
+echo "Generating preview ..."
+source ./_build.preview.sh
 
 echo "Done."
