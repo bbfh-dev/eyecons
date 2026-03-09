@@ -14,7 +14,7 @@ A 16x16 stylized vector icon pack that aims to be consistent & pixel-perfect.
 
 # Preview
 
-An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/latest): <!-- INSERT icons-amount -->`164 icons`:
+An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/latest): <!-- INSERT icons-amount -->`166 icons`:
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
 <!-- BEGIN insert-icons-preview -->
@@ -146,6 +146,8 @@ An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/l
     <img src=".docs/icon/black/logo_github.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/logo_modrinth.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/logo_modrinth.svg#gh-light-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/white/magnifying_glass.svg#gh-dark-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/black/magnifying_glass.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/mail-notification.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/mail-notification.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/mail.svg#gh-dark-mode-only" width="16px" height="16px" />
@@ -234,6 +236,8 @@ An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/l
     <img src=".docs/icon/black/notification-unread.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/pallete.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/pallete.svg#gh-light-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/white/pencil-short.svg#gh-dark-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/black/pencil-short.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/pencil.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/pencil.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/picture-placeholder.svg#gh-dark-mode-only" width="16px" height="16px" />
