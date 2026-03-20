@@ -14,7 +14,7 @@ A 16x16 stylized vector icon pack that aims to be consistent & pixel-perfect.
 
 # Preview
 
-An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/latest): <!-- INSERT icons-amount -->`166 icons`:
+An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/latest): <!-- INSERT icons-amount -->`168 icons`:
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
 <!-- BEGIN insert-icons-preview -->
@@ -200,6 +200,10 @@ An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/l
     <img src=".docs/icon/black/navigation_arrow_right.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/navigation_arrow_up.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/navigation_arrow_up.svg#gh-light-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/white/navigation_enter.svg#gh-dark-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/black/navigation_enter.svg#gh-light-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/white/navigation_leave.svg#gh-dark-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/black/navigation_leave.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/navigation_next.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/navigation_next.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/navigation_previous.svg#gh-dark-mode-only" width="16px" height="16px" />
