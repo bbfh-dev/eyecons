@@ -21,8 +21,8 @@ jobs:
             - name: Install dependencies
               uses: awalsh128/cache-apt-pkgs-action@latest
               with:
-              packages: resvg
-              version: 1.0
+                  packages: resvg
+                  version: 1.0
 
             - name: Build
               run: |
