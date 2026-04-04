@@ -14,7 +14,7 @@ A 16x16 stylized vector icon pack that aims to be consistent & pixel-perfect.
 
 # Preview
 
-An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/latest): <!-- INSERT icons-amount -->`168 icons`:
+An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/latest): <!-- INSERT icons-amount -->`172 icons`:
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
 <!-- BEGIN insert-icons-preview -->
@@ -34,6 +34,8 @@ An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/l
     <img src=".docs/icon/black/bus.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/calendar.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/calendar.svg#gh-light-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/white/chair.svg#gh-dark-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/black/chair.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/clipboard.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/clipboard.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/clock.svg#gh-dark-mode-only" width="16px" height="16px" />
@@ -64,6 +66,8 @@ An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/l
     <img src=".docs/icon/black/eye-crossed.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/eye.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/eye.svg#gh-light-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/white/feather.svg#gh-dark-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/black/feather.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/file-crossed.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/file-crossed.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/file-minus.svg#gh-dark-mode-only" width="16px" height="16px" />
@@ -152,6 +156,10 @@ An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/l
     <img src=".docs/icon/black/mail-notification.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/mail.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/mail.svg#gh-light-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/white/man_run.svg#gh-dark-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/black/man_run.svg#gh-light-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/white/man_walk.svg#gh-dark-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/black/man_walk.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/map_pin.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/map_pin.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/media_audio_volume_high.svg#gh-dark-mode-only" width="16px" height="16px" />
