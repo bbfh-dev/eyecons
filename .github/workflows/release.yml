@@ -19,10 +19,9 @@ jobs:
               uses: actions/checkout@v4
 
             - name: Install dependencies
-              uses: awalsh128/cache-apt-pkgs-action@latest
-              with:
-                  packages: resvg
-                  version: 1.0
+              run: |
+                  sudo apt-get update
+                  sudo apt-get -y install resvg
 
             - name: Build
               run: |
