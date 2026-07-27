@@ -14,7 +14,7 @@ A 16x16 stylized vector icon pack that aims to be consistent & pixel-perfect.
 
 # Preview
 
-An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/latest): <!-- INSERT icons-amount -->`172 icons`:
+An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/latest): <!-- INSERT icons-amount -->`176 icons`:
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
 <!-- BEGIN insert-icons-preview -->
@@ -76,6 +76,8 @@ An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/l
     <img src=".docs/icon/black/file-plus.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/file.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/file.svg#gh-light-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/white/filter.svg#gh-dark-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/black/filter.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/flag-crossed.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/flag-crossed.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/flag.svg#gh-dark-mode-only" width="16px" height="16px" />
@@ -180,6 +182,8 @@ An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/l
     <img src=".docs/icon/black/media_microphone-mute.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/media_microphone.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/media_microphone.svg#gh-light-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/white/media_play-big.svg#gh-dark-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/black/media_play-big.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/media_play-fill.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/media_play-fill.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/media_play.svg#gh-dark-mode-only" width="16px" height="16px" />
@@ -302,8 +306,12 @@ An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/l
     <img src=".docs/icon/black/signal.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/sort.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/sort.svg#gh-light-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/white/speech_bubble.svg#gh-dark-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/black/speech_bubble.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/sword.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/sword.svg#gh-light-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/white/symbol_asterisk.svg#gh-dark-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/black/symbol_asterisk.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/symbol_at_sign.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/symbol_at_sign.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/symbol_check.svg#gh-dark-mode-only" width="16px" height="16px" />
