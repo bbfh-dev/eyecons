@@ -5,8 +5,13 @@ shopt -s globstar dotglob
 
 function do_compress {
     file=$1
-    cp $file "${file}.min"
 
+    # First pass to change the header
+    echo $header >"${file}.min"
+    tail -n+2 $file >>"${file}.min"
+    mv "${file}.min" $file
+
+    cp $file "${file}.min"
     scour \
         --quiet \
         --strip-xml-prolog \
@@ -18,11 +23,6 @@ function do_compress {
         --shorten-ids \
         $file "${file}.min"
     prettier --parser html --print-width 100 --use-tabs --write "${file}.min"
-    mv "${file}.min" $file
-
-    # Second pass to change the header
-    echo $header > "${file}.min"
-    tail -n+2 $file >> "${file}.min"
     mv "${file}.min" $file
 }
 
