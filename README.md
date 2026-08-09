@@ -14,7 +14,7 @@ A 16x16 stylized vector icon pack that aims to be consistent & pixel-perfect.
 
 # Preview
 
-An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/latest): <!-- INSERT icons-amount -->`176 icons`:
+An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/latest): <!-- INSERT icons-amount -->`180 icons`:
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
 <!-- BEGIN insert-icons-preview -->
@@ -24,6 +24,14 @@ An up-to-date preview of [latest](https://github.com/bbfh-dev/eyecons/releases/l
     <img src=".docs/icon/black/apps.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/book.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/book.svg#gh-light-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/white/box-circle.svg#gh-dark-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/black/box-circle.svg#gh-light-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/white/box-highlight.svg#gh-dark-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/black/box-highlight.svg#gh-light-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/white/box-minux.svg#gh-dark-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/black/box-minux.svg#gh-light-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/white/box-plus.svg#gh-dark-mode-only" width="16px" height="16px" />
+    <img src=".docs/icon/black/box-plus.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/box.svg#gh-dark-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/black/box.svg#gh-light-mode-only" width="16px" height="16px" />
     <img src=".docs/icon/white/building.svg#gh-dark-mode-only" width="16px" height="16px" />
